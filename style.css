@@ -1,0 +1,166 @@
+body {
+    background-color: #010a13; 
+    color: #f0e6d2; 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: #c8aa6e; 
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#selectionSection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+div.block-perso {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #c8aa6e;
+    padding: 15px;
+    margin: 0 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+div.block-perso span {
+    display: block;
+    font-weight: bold;
+    color: #c8aa6e;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    background: #1e2328;
+    color: white;
+    border: 1px solid #463714;
+    padding: 5px;
+}
+
+.les-boutons { 
+    margin: 30px 0; 
+}
+
+.cool-btn {
+    background-color: #1e2328;
+    color: #c8aa6e;
+    border: 1px solid #c8aa6e;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.cool-btn:hover {
+    background-color: #c8aa6e;
+    color: #010a13;
+}
+
+.cool-btn.principal {
+    background-color: #c8aa6e;
+    color: #010a13;
+}
+
+#display-equipe {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carte-du-champ {
+    width: 130px;
+    border: 1px solid #c8aa6e;
+    background-color: #010a13;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.carte-du-champ:hover {
+    border-color: #00bcff;
+}
+
+.carte-du-champ img {
+    width: 100%;
+}
+
+.carte-du-champ p {
+    margin: 0;
+    padding: 10px;
+    background-color: #1e2328;
+    text-align: center;
+    font-weight: bold;
+}
+
+#zone-historique {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    border-top: 1px solid #463714;
+    padding-top: 20px;
+}
+
+.item-histo {
+    background-color: #1e2328;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 3px solid #c8aa6e;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #010a13;
+    border: 2px solid #c8aa6e;
+    width: 80%;
+    max-width: 700px;
+    max-height: 80vh;
+    overflow-y: auto; 
+    position: relative;
+}
+
+.fermerModal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #c8aa6e;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.header-image-modal img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.infos-modal {
+    padding: 20px;
+    text-align: left;
+}
+
+.infos-modal h2 { color: #c8aa6e; margin-top: 0;}

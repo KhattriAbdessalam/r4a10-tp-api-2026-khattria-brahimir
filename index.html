@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Projet Draft LoL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main-container">
+        <header>
+            <h1>Draft de la Faille</h1>
+        </header>
+
+        <section id="selectionSection">
+            <div class="block-perso"><span>TOP</span><select id="choix-top"><option value="">-- Choisir --</option></select></div>
+            <div class="block-perso"><span>JNG</span><select id="choix-jng"><option value="">-- Choisir --</option></select></div>
+            <div class="block-perso"><span>MID</span><select id="choix-mid"><option value="">-- Choisir --</option></select></div>
+            <div class="block-perso"><span>ADC</span><select id="choix-adc"><option value="">-- Choisir --</option></select></div>
+            <div class="block-perso"><span>SUP</span><select id="choix-sup"><option value="">-- Choisir --</option></select></div>
+        </section>
+
+        <div class="les-boutons">
+            <button id="validerTeam" class="cool-btn principal">Verrouiller l'équipe</button>
+            <button id="btnFavoris" class="cool-btn">⭐ Ajouter aux favoris</button>
+        </div>
+
+        <div id="display-equipe"></div>
+
+        <div id="zone-favoris"></div>
+
+    </div>
+
+    <div id="monModal" class="modal">
+        <div class="modal-content">
+            <span class="fermerModal">&times;</span>
+            <div id="contenuModal">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
